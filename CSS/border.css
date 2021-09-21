@@ -1,0 +1,31 @@
+body{
+    background-color: black; color: white;
+}
+
+
+h1{
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: ;
+}
+
+
+
+
+p{
+    padding: 7px;
+    border-style: solid;
+    border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: ridge;
+    border-style: groove;
+    border-style: inset;
+    border-style: outset;
+    border-width: 3px 5px 3px 5px;
+    border-color: #00FF00;
+    border-radius: 10px;
+
+}

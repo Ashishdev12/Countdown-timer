@@ -1,0 +1,53 @@
+p{
+
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    font-size: 85px;
+    text-align: center;
+    margin: 100px;
+
+    /* at last we took this from here and kept at hover*/
+}
+#p1:hover{
+    animation: myFont;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes myColorAnimation{
+    0%{background-color: red;}
+    20%{background-color: blue;}
+    40%{background-color: orange;}
+    60%{background-color: yellow;}
+    80%{background-color: white;}
+   100%{background-color: green;}
+
+}
+
+@keyframes myRotateAnimation{
+    100%{transform: rotateZ(360deg);}
+}
+
+@keyframes myTranslate{
+
+    100% {transform: translate(100px,100px);}
+}
+
+@keyframes myScale{
+
+    100%{transform: scale(0.5,0.5);}
+
+}
+
+@keyframes myOpacity{
+    0%{opacity: 0;}
+    50%{opacity: 1;}
+    100%{opacity: 0;}
+}
+
+@keyframes myFont{
+    0%{font-size: 85%;}
+    50%{font-size: 400px;}
+    100%{font-size: 85px;}
+}

@@ -1,0 +1,50 @@
+html{
+    margin-top: -21px;
+    margin-left: -7px;
+}
+
+
+h1
+{
+    border: 1px solid;
+    width: 300px;
+    margin-bottom: 0px;
+    padding: 5px;
+}
+
+p
+{
+    border: 1px solid;
+    width: 300px;
+    padding: 25px;
+    margin: 25px
+}
+
+#p1{
+    margin: 25px;
+}
+
+#p2{
+    margin-top: 25px;
+    margin-right: 75px;
+    margin-bottom: 25px;
+    margin-left: 75px;
+    /* this is the same */
+
+}
+
+#p3{
+    margin: 25px 75px 25px 75px;
+}
+
+#p4{
+    margin: 10%;
+}
+
+#p5{
+    margin-right: auto;
+}
+
+#p6{
+    margin: auto;
+}

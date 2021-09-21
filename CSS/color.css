@@ -1,0 +1,18 @@
+body{
+    background-color: #000000;
+}
+
+p{
+      font-family: 'Times New Roman', sans-serif;
+      font-style: Lato;
+      font-weight: bold;
+      font-size: 18px;
+      text-decoration:normal;
+      color: #00AA00;
+      
+}
+
+h1{
+    font-family: 'Allison', cursive;
+    color: #00FF00;
+}
